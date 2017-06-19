@@ -1,2 +1,2 @@
-# node-audiostatus
+# node-audiostate
 Gives you the current state of your ALSA audio device.
