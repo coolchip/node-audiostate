@@ -1,0 +1,30 @@
+{
+  "name": "audiostate",
+  "version": "0.0.1",
+  "description": "Gives you the current state of your ALSA audio device.",
+  "main": "audiostate.js",
+  "files": [
+    "audiostate.js"
+  ],
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "assertthat": "^0.10.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "lint": "node_modules/.bin/eslint audiostate.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sebastian Balling",
+    "email": "coolchip@gmx.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolchip/node-audiostate.git"
+  }
+}

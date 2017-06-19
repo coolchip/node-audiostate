@@ -1,0 +1,3 @@
+--async-only
+--reporter spec
+--ui tdd
