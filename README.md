@@ -1,12 +1,17 @@
+[![npm version](https://badge.fury.io/js/audiostate.svg)](https://badge.fury.io/js/audiostate)
+[![Dependency Status](https://david-dm.org/coolchip/audiostate.svg)](https://david-dm.org/coolchip/audiostate)
+[![licence](https://img.shields.io/npm/l/audiostate.svg)](https://www.npmjs.com/package/audiostate)
+
 # audiostate
 Gives you the current state of your ALSA audio device.
 
-install
--------
-npm install audiostate --save
+## install
+Just run
+```
+npm install audiostate
+```
 
-example
--------
+## example
 ```
 const audiostate = require('audiostate');
 
